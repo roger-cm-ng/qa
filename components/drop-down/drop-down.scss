@@ -16,10 +16,14 @@
     font-size: 16px;
     height: 48px;
     margin-top: 1px;
-    padding: 0 24px 0 10px;
+    padding: 0 8px 0 10px;
     position: relative;
     width: 100%;
     z-index: 30;
+
+    &::-ms-expand {
+      display: none;
+    }
   }
 
   .dummy {

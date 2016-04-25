@@ -1,4 +1,5 @@
 import arrayUnique from 'array-unique';
+import 'babel-polyfill';
 
 export const GENRES_DEDUPED = 'GENRES_DEDUPED';
 export const GENRE_SELECTED = 'GENRE_SELECTED';
